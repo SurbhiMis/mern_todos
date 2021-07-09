@@ -72,7 +72,7 @@ function App() {
             </div>
             <div className="input-field col s6">
               <i className="material-icons prefix">description</i>
-              <input id="description" type="tel" className="validate"
+              <input id="description" type="text" className="validate"
               value = {todo.content}
                 onChange={e => setTodo({ ...todo, content: e.target.value })} />
               <label htmlFor="description">Content</label>
